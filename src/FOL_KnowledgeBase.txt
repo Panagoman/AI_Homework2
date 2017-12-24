@@ -1,0 +1,12 @@
+// First Order Logic Knowledge Base
+// Rules:
+// The ¬ symbol is typed with alt+0172 and stands for the logical NOT.
+// The V is a capital v, so please do not use the V as a symbol for other purposes. We use it as a logical disjunction.
+// Anything written that starts with // is not considered input.
+// The | symbol is used in order to divide the clauses from one another.
+// Variables are written with non capital letters.
+// Constants begin with a capital letter.
+
+Animal(F(x)) V Loves(G(x),x) | ¬Loves(x,F(x)) V Loves(G(x),x) | ¬Animal(y) V ¬Kills(x,y) V ¬Loves(z,x) |
+¬Animal(x) V Loves(Jack,x) | Kills(Jack,Tuna) V Kills(Curiosity,Tuna) | Cat(Tuna) | ¬Cat(x) V Animal(x) |
+¬Kills(Curiosity,Tuna)

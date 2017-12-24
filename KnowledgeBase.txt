@@ -1,0 +1,8 @@
+// Rules: 
+// The ¬ symbol is typed with alt+0172 and stands for the logical NOT.
+// The V is a capital v, so please do not use the V as a symbol for other purposes. We use it as a logical disjunction.
+// Each CLAUSE is divided via ( ), the comma is not a necessity but it makes reading the input easier.
+// IMPORTANT :: Each clause has to start with "(" and end with ")" so as to be recognized by our reading method.
+// Anything written that starts with // is not considered input.
+
+(¬P2,1VB1,1), (¬B1,1VP1,2VP2,1),(¬P1,2 V B1,1), (¬B1,1)
